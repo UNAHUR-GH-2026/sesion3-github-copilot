@@ -77,6 +77,25 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "id": "fastapi-jwt-auth",
+      "title": "Autenticación JWT con FastAPI",
+      "description": "Implementar autenticación segura con JWT: registro, login y protección de endpoints",
+      "path": "assignments/fastapi-jwt-auth",
+      "dueDate": "2026-03-21",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Requirements",
+          "file": "requirements.txt",
+          "type": "text"
+        }
+      ]
     }
     
   ]
