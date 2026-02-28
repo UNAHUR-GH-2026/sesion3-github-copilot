@@ -96,6 +96,20 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "id": "numeros-random",
+      "title": "Números Random en Python",
+      "description": "Generación de números aleatorios con el módulo random: randint, choice y shuffle",
+      "path": "assignments/numeros-random",
+      "dueDate": "2026-03-14",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
     
   ]
