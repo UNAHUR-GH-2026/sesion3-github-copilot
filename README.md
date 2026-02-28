@@ -2,7 +2,20 @@
 
 Este repositorio demuestra las capacidades de personalización de GitHub Copilot mediante un sistema completo de gestión de asignaciones educativas. Incluye una interfaz web interactiva y ejercicios prácticos de programación en Python.
 
-## 📋 Descripción General
+## � Tabla de Contenidos
+
+- [Descripción General](#-descripción-general)
+- [Estructura del Proyecto](#️-estructura-del-proyecto)
+- [Cómo Empezar](#-cómo-empezar)
+- [Asignaciones Disponibles](#-asignaciones-disponibles)
+- [Personalización](#️-personalización)
+- [Uso con GitHub Copilot](#-uso-con-github-copilot)
+- [Documentación del Proyecto](#-documentación-del-proyecto)
+- [Licencia](#-licencia)
+- [Contribuciones](#-contribuciones)
+- [Referencia Rápida](#-referencia-rápida)
+
+## �📋 Descripción General
 
 Este proyecto simula un curso de Ciencias de la Computación para "Mergington High School" con múltiples asignaciones de Python. La interfaz web permite a los estudiantes visualizar sus tareas, fechas de vencimiento y acceder a los materiales del curso de manera organizada.
 
@@ -148,7 +161,16 @@ Este repositorio está diseñado para demostrar las capacidades de personalizaci
 - **Escribir tests**: Genera tests siguiendo los patrones del proyecto
 - **Documentar funciones**: Crea docstrings consistentes con el estilo del curso
 
-## 📖 Recursos Adicionales
+## 📖 Documentación del Proyecto
+
+### Guías Disponibles
+
+- **[README.md](README.md)** - Este archivo. Introducción y guía general del proyecto
+- **[DEVELOPMENT.md](DEVELOPMENT.md)** - Guía completa de desarrollo y configuración del entorno
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Cómo contribuir al proyecto, guías de estilo y proceso de PR
+- **[CONFIG.md](CONFIG.md)** - Documentación detallada del archivo config.json
+
+### Recursos Externos
 
 - [Documentación de GitHub Copilot](https://docs.github.com/en/copilot)
 - [Personalización de Copilot](https://docs.github.com/en/copilot/customizing-copilot)
@@ -167,6 +189,43 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 3. Commit sus cambios (`git commit -m 'Agregar nueva característica'`)
 4. Push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Abra un Pull Request
+
+**Ver [CONTRIBUTING.md](CONTRIBUTING.md) para guías detalladas de contribución.**
+
+## ⚡ Referencia Rápida
+
+### Comandos Comunes
+
+```bash
+# Iniciar servidor web
+python -m http.server 8000
+
+# Ejecutar una asignación
+cd assignments/python-basics && python starter-code.py
+
+# Validar config.json
+python -m json.tool config.json
+
+# Activar entorno virtual Python (Windows)
+venv\Scripts\activate
+
+# Activar entorno virtual Python (macOS/Linux)
+source venv/bin/activate
+```
+
+### URLs Útiles
+
+- **Interfaz principal:** http://localhost:8000
+- **Página de asignación:** http://localhost:8000/assets/pages/assignment.html?id=[assignment-id]
+
+### Solución Rápida de Problemas
+
+| Problema | Solución |
+|----------|----------|
+| Config.json no carga | Usar servidor HTTP (no abrir archivo directo) |
+| Módulo Python no encontrado | `pip install [nombre-modulo]` |
+| Página no actualiza | Hard refresh: Ctrl+F5 |
+| Error de fechas | Verificar formato ISO: YYYY-MM-DD |
 
 ---
 
