@@ -58,6 +58,25 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "fastapi-rest-api",
+      "title": "API REST con FastAPI",
+      "description": "Crear una API REST completa con FastAPI para gestionar tareas",
+      "path": "assignments/fastapi-rest-api",
+      "dueDate": "2026-03-07",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Requirements",
+          "file": "requirements.txt",
+          "type": "text"
+        }
+      ]
     }
     
   ]
