@@ -115,6 +115,25 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "id": "fastapi-rate-limit",
+      "title": "Rate Limiting con FastAPI",
+      "description": "Implementar rate limiting en una API FastAPI usando slowapi para proteger los endpoints de un abuso de uso",
+      "path": "assignments/fastapi-rate-limit",
+      "dueDate": "2026-04-04",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Requirements",
+          "file": "requirements.txt",
+          "type": "text"
+        }
+      ]
     }
     
   ]
